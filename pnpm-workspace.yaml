@@ -1,0 +1,11 @@
+packages:
+  - apps/*
+  - libs/*
+
+ignoredBuiltDependencies:
+  - '@swc/core'
+  - unrs-resolver
+
+onlyBuiltDependencies:
+  - esbuild
+  - nx
